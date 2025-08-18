@@ -1,8 +1,6 @@
 name: Build Boost
 
 on:
-  push:
-    branches: [fix_winarm64]
   workflow_dispatch:
     inputs:
       version:
